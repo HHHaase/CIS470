@@ -1,0 +1,164 @@
+{
+  "title": "WSC WebSite",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "5": {
+      "title": "User Login",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Customer",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Order Information",
+              "id": 8
+            },
+            "2": {
+              "title": "Catalog Information",
+              "id": 9
+            },
+            "0.5": {
+              "title": "User Information",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "Personal Information",
+                  "id": 18
+                },
+                "2": {
+                  "title": "Billing Information",
+                  "id": 19
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "2": {
+          "title": "Employee",
+          "id": 4,
+          "ideas": {
+            "3": {
+              "title": "Sales Person",
+              "id": 15,
+              "ideas": {
+                "1": {
+                  "title": "Customer Information",
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Order Information",
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
+                      "id": 21
+                    }
+                  },
+                  "id": 20
+                },
+                "0.5": {
+                  "title": "User Information",
+                  "id": 22,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "4": {
+              "title": "Operations Manager",
+              "id": 16,
+              "ideas": {
+                "2": {
+                  "title": "Customer Information",
+                  "id": 13,
+                  "ideas": {
+                    "1": {
+                      "title": "Order Information",
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
+                      "id": 24
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "1.5": {
+                  "title": "User Information",
+                  "id": 23,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "1.75": {
+                  "title": "Purchase Order  Information",
+                  "id": 10,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  },
+                  "ideas": {}
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#E0E0E0"
+        }
+      }
+    },
+    "10": {
+      "title": "Storefront",
+      "id": 7,
+      "ideas": {}
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 7,
+      "ideaIdTo": 2,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
